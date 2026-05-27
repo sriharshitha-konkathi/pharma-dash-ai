@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home'; 
-import { DrugSearch } from './components/Drugsearch';
+import { DrugSearch } from './components/DrugSearch';
 import { DoseCalc } from './components/DoseCalc';
 import { Footer } from './components/Footer';
 import { AiAssistant } from './components/AiAssistant';
