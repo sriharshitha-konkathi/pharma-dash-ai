@@ -1,16 +1,41 @@
-# React + Vite
+# 💊 PharmaDash AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pharmaceutical intelligence web app built with React + Vite, powered by OpenFDA API and NVIDIA AI.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [https://pharma-dash-ai.vercel.app](https://pharma-dash-ai.vercel.app)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search FDA-approved drug labels by brand or generic name
+- 🤖 AI-powered drug name suggestions for misspelled searches
+- 💉 Weight-based dosage calculator for pediatric and adult patients
+- 💬 AI Assistant for drug interactions, side effects, and dosage guidance
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI library
+- **Vite** — Build tool
+- **Tailwind CSS** — Styling
+- **OpenFDA API** — Drug data
+- **NVIDIA AI (LLaMA 3.1)** — AI features
+- **Vercel** — Deployment
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/sriharshitha-konkathi/pharma-dash-ai.git
+cd pharma-dash-ai
+npm install
+npm run dev
+```
+
+Add a `.env` file:
+```
+VITE_NVIDIA_KEY=your_nvidia_api_key_here
+```
+
+## 🙋‍♀️ Author
+
+**Sriharshitha Konkathi** — [@sriharshitha-konkathi](https://github.com/sriharshitha-konkathi)
