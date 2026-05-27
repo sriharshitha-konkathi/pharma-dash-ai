@@ -68,7 +68,7 @@ export const Footer = () => {
         {/* BOTTOM BAR */}
         <div className="mt-12 pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-400 font-medium">
-            © 2026 PharmaDash AI. All rights reserved.
+           © 2026 PharmaDash AI by Sriharshitha Konkathi. All rights reserved.
           </p>
           <div className="flex items-center gap-1 text-xs text-slate-400 font-medium">
             Built with{" "}
